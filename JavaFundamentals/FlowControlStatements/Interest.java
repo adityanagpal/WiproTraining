@@ -20,15 +20,14 @@ Interest == 8.3%
  {
  double interest=0.0;
  int age = Integer.parseInt(arg[1]);
- if(arg[0]=="Female")
+ if(arg[0].equals("Female"))
 {
-  System.out.println("the interes");
   if(age>0&&age<59)
   interest=8.2;
   else if(age>58&&age<121)
   interest=7.6;
 }
-else if(arg[1]=="Male")
+else if(arg[1].equals("Male"))
 {
   if(age>0&&age<61)
   interest=9.2;
@@ -36,8 +35,13 @@ else if(arg[1]=="Male")
   interest=8.3;
 }
  else{
- System.out.println("Invalid commandline arguments type Gender(full and first letter capital) and age(0-120)");
+ System.out.println("Invalid commandline arguments, type Gender(full and first letter capital) and age(0-120)");
 }
  System.out.println("the interest is :"+interest);
  }
  }
+/*
+aditya@aditya-Lenovo-G50-80:~/java$ javac Interest.java
+aditya@aditya-Lenovo-G50-80:~/java$ java Interest Female 24
+the interest is :8.2
+*/
