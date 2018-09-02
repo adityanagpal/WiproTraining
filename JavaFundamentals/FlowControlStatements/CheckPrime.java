@@ -32,7 +32,7 @@ Example5:
      O/P Expected : 7 is a prime number
 */
 import java.util.Scanner;
-class Prime
+class CheckPrime
 {
   public static void main(String args[])
   {
@@ -57,12 +57,12 @@ class Prime
   }
 }
 /*
-aditya@aditya-Lenovo-G50-80:~/java$ javac Prime.java
-aditya@aditya-Lenovo-G50-80:~/java$ java Prime
+aditya@aditya-Lenovo-G50-80:~/java$ javac CheckPrime.java
+aditya@aditya-Lenovo-G50-80:~/java$ java CheckPrime
 Enter the Number:
 7
 Prime Number
-aditya@aditya-Lenovo-G50-80:~/java$ java Prime
+aditya@aditya-Lenovo-G50-80:~/java$ java CheckPrime
 Enter the Number:
 1
 Neither Prime nor Composite
