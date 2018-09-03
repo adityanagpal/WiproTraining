@@ -1,3 +1,7 @@
+/*
+Initialize an integer array with ascii values and print the corresponding character values in a single row.
+*/
+
 public class Ascii {
 
     public static void main(String[] args) {
@@ -8,6 +12,4 @@ public class Ascii {
         }
         
     }
-}/*
-Initialize an integer array with ascii values and print the corresponding character values in a single row.
-*/
+}
