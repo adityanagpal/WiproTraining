@@ -19,3 +19,21 @@ The given array is :
 56 77 89 
 The biggest number in the given array is 222
 */
+class Greatest
+{
+     public static void main(String args[])
+     {
+          int[][] a=int[3][3];
+          int max=0;
+          for(int i=0;i<3;i++)
+          {
+               for(int j=0;j<3;j++)
+               {
+                    a[i][j]=Integer.parseInt(arg[3*i+j]);
+                    if(max<a[i][j])
+                         max=a[i][j];
+               }
+          }
+          System.out.println("Greatest = "+max);
+     }
+}
