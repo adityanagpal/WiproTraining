@@ -10,3 +10,27 @@ Here’s what the class should do:
 6. Next, construct a class called “Patients” and create a main method. Create a Patient object and assign 
    some height and weight to that object. Display the BMI of that patient.
 */
+class Patient
+{
+   public String name;
+   double height,weight;
+   Patient(double h,double w)
+   {
+      height=h; weight=w;
+   }
+   public double BMI()
+   {
+      double BMI=weight/height*703;
+      return BMI;
+   }
+}
+
+class Patients
+{
+   public static void main(String args[])
+   {
+      Patient p = new Patient(65,152);
+      double bmi=p.BMI();
+      System.out.println("BMI="+bmi);
+   }
+}
